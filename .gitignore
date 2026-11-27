@@ -8,3 +8,5 @@ shim/out/
 xnu/out/
 xnu/out-*/
 __pycache__/
+# local device facts collected by tools/xpad20-preflight.sh (may contain serials)
+work/

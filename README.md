@@ -1,4 +1,23 @@
-# ios-sweet
+# ios-xpad20 — Infinix XPad 20 port (assessment stage)
+
+**Status (2026-11-27): research only. iOS does not run on the XPad 20 yet.**
+
+This repository is a fresh porting project targeting the **Infinix XPad 20
+(X1102, MediaTek Helio G88 / MT6769, Mali-G52 MC2, eMMC)**. It starts from
+upstream `dipa-studio/ios-sweet` (the Redmi Note 10 Pro port described below)
+as a donor for the generic XNU patches and iOS root tooling. The closest working
+base is HakiOS's MT6768 port (`0xBEEBAD/hakios-mt6768`, Infinix Hot 20).
+
+See [`docs/xpad20-port-assessment.md`](docs/xpad20-port-assessment.md) for the
+hardware facts, blockers, milestones and what is needed from the tablet owner.
+Read-only helpers: `tools/xpad20-preflight.sh` and `tools/facts-from-dtb.py`.
+
+No tablet is connected and `adb` is not installed here, so no device facts have
+been collected. Nothing in this repo has been flashed or booted on an XPad 20.
+
+---
+
+# ios-sweet (upstream base)
 
 **Apple's iOS 16 running on a Redmi Note 10 Pro.**
 
